@@ -1,0 +1,166 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.sidebar {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 100%;
+    background-color: #e87bc9;
+    padding: 15px;
+    transition: all 0.3s ease;
+    background-image: linear-gradient(to right, #db7ecf, #d89dce);
+  border: 4px solid transparent;
+  border-image: linear-gradient(to right, #c250a9, #912280) 30;
+     
+  }
+  .sidebar li p a {
+   visibility: hidden;
+  }
+  .sidebar:hover li p a {
+    visibility: visible;
+    overflow: hidden;
+    transition: all 8s ease!important;
+   }
+  .sidebar::before {
+  content: "";
+  position: absolute;
+  background-position: 50px 70px;
+  background-size: 25%;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(icons8-cerejeira-em-flor-64.png);
+  opacity: 0.1;
+  z-index: -1;
+}
+
+  
+  .sidebar:hover {
+    width: 200px;
+    transition: all 0.3s ease;
+    
+  }
+    li:hover img {
+      width: 40px;
+height: 40px;
+ transition: all 0.3s ease; 
+    }
+
+   
+ 
+  .sidebar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+  }
+  
+  .sidebar li {
+   
+    margin: 10px 10px;
+  }
+ 
+  .sidebar a {
+    display: block;
+    color: #a93636;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    transition: all 0.2s ease;
+  }
+  
+  .sidebar a:hover {
+    color: rgba(187, 9, 83, 0.785);
+  }
+  hr {
+    color: #1f0a0a; /* muda a cor para vermelho */
+    border: 1px solid #000000; /* muda a espessura para 1 pixel e a cor da borda para preto */
+    
+  }
+  
+  body {
+    border:linear-gradient(to right, #601b3d, #770d50) 10;
+    background-image: linear-gradient(to right, #df46ca, #d98ecd);
+  border-image: linear-gradient(to right, #a5135c, #e20b93) 30;
+
+  }
+  main {
+    margin-left: 120px;
+    padding: 100px;
+    font-size: 30px;
+    text-align: center;
+    color: #000000;
+
+  
+  }
+
+  .bg-image {
+    background-image: url(fundo\ rosa.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(20px);
+  }
+  .certificado-link {
+    color: rgb(157, 13, 13);
+    transition: all 0.3s ease;
+    position:center ;
+
+  }
+  .certificado-link:hover {
+    color: rgb(3, 4, 11);
+    font-size: 35px;
+    position:center ;
+  }
+
+  .contato-link {
+    color: rgb(157, 13, 13);
+    transition: all 0.3s ease;
+    text-align: center;
+  }
+  .contato-link:hover {
+    color: rgb(222, 138, 131);
+    font-size: 35px;
+    text-align: center;
+  }
+.menu-link {
+  font-size: 19px;
+  transition: all 0.4s ease;
+}
+  
+.menu-link:hover {
+  font-size: 20px;
+  transition: all 0.4s ease;
+}
+.icon-link {
+  font-size: 20px;
+  transition: all 0.7s ease;
+}
+.icon-link:hover {
+width: 40px;
+height: 40px;
+ transition: all 0.7s ease;
+  
+}
+li {
+  transition: all 0.5s ease-in-out;
+}
+li:hover {
+  transform: scale(1.2);
+  transition: all 0.5s ease-in-out;
+}
+.pag-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+  .primeiro-paragrafo {
+    font-size: 30px;
+    text-align: center;
+    color: #000000;
+  }
