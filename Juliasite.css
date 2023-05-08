@@ -131,6 +131,7 @@ height: 40px;
 .menu-link {
   font-size: 19px;
   transition: all 0.4s ease;
+  text-align: center;
 }
   
 .menu-link:hover {
