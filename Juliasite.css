@@ -165,3 +165,9 @@ li:hover {
     text-align: center;
     color: #000000;
   }
+  p.curriculo {
+    text-align: left;
+  }
+  li.lista {
+    text-align: left;
+  }
